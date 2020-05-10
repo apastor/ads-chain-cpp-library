@@ -1,0 +1,17 @@
+target_sources(adschain
+    PUBLIC
+    FileWrapper.h
+    adschain/crypto.h
+    adschain/network.h
+    adschain/adschain.h
+    adschain/network/HttpRequests.h
+    adschain/network/QueryStringUtils.h
+    adschain/network/PublicKeyDao.h
+    adschain/network/PublicKeyService.h
+    adschain/crypto/PrivateKey.h
+    adschain/crypto/PublicKey.h
+    adschain/crypto/Signer.h
+    adschain/crypto/Verifier.h
+    adschain/tools/Stopwatch.h
+    adschain/tools/unixtime_generator.h
+    )
